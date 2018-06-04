@@ -1,0 +1,15 @@
+ 1. git init
+
+ 2. git add <filename with extension>
+
+ 3. git status
+
+ 4. git config --global user.email "email@.com"
+
+ 5. git config --global user.name "userName"
+
+ 6. git commit -m "first commit"
+
+ 7. git remote add origin https://github.com/pandeyarun709/firstgit.git
+ 
+ 8. git push -u origin master
