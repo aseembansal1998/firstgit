@@ -1,15 +1,36 @@
- 1. git init
+ 1. git init  
+	{ Initialized empty Git repository in /home/username/GIT/.git/ }
+	
+ 2. git add <filename with extension> 
+	{ Adds files changes in your working directory to your index. }
 
- 2. git add <filename with extension>
+ 3. git status 
+	{  It will list
+	   out files that are untracked (only in your working directory), modified (tracked
+	   but not yet updated in your index), and staged (added to your index and ready
+	    for committing). }
 
- 3. git status
-
- 4. git config --global user.email "email@.com"
-
- 5. git config --global user.name "userName"
+ 4. git config
+	{ Sets a configuration values for user name, email.}	
+ 	
+	example :
+	git config --global user.email "email@.com"
+        git config --global user.name "userName"
 
  6. git commit -m "first commit"
+	{ Takes all of the changes written in the index, creates a new commit
+	  object pointing to it and sets the branch to point to that new commit. }
 
- 7. git remote add origin https://github.com/pandeyarun709/firstgit.git
+ 7. git remote add origin
+	{ Used to add a new remote. }
+	
+	Example :
+              git remote add origin https://github.com/pandeyarun709/firstgit.git
  
  8. git push -u origin master
+        {  will push your code to the master branch of the remote repository defined
+           with origin and -u let you point your current local branch to the remote
+           master branch. }
+
+ 9. git log
+ 	{ Shows a listing of commits on a branch including the corresponding details. }
