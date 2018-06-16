@@ -34,3 +34,4 @@
 
  9. git log
  	{ Shows a listing of commits on a branch including the corresponding details. }
+	what is this?
